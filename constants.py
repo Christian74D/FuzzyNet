@@ -5,7 +5,7 @@ current_dir = str(os.path.dirname(__file__)) + '\\'
 
 #fuzzy variables (VL L M H VH)
 fuzzy_size = 5  
-no_dms = 7
+no_dms = 3
 
 
 #train-test ratio
@@ -18,6 +18,7 @@ lr = 0.0025
 #model path(save/load)
 plot_loss_path = current_dir + "train_losses.jpg"
 model_path = current_dir + "models\FuzzyNet.pth"
+inference_img_path = current_dir + "inference.jpg"
 
 
 #fuzzy category values
